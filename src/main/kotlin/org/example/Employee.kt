@@ -6,10 +6,10 @@ data class Employee(val id:Int=0,var name:String="") {
 
 }
 fun main(){
-    val e1=Employee(18,"Virat Kohli")
+    val e1= Employee(18,"Virat Kohli")
     println(e1)
 
-    val e2=Employee(45,"Rohit Sharma")
+    val e2= Employee(45,"Rohit Sharma")
 
     println(e1==e2)
 
